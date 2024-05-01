@@ -7,7 +7,7 @@ int algoritma_euclidean_rekursif(int a, int b) {        //deklarasi fungsi
         return a;                                       // jika b = 0 maka yang ditampilkan = a
     } 
     else if (a == 0) {
-        return b;                                       // jika b = 0 maka yang ditampilkan = a
+        return b;                                       // jika a = 0 maka yang ditampilkan = b
     }
 
     else if (a == b) {                                  //jika sama berarti itulah fpbnya
